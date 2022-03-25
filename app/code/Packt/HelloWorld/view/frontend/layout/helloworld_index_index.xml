@@ -7,5 +7,9 @@ xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_config
 </head>
 <body>
 <referenceBlock name="wishlist_sidebar" remove="true"/>
+<referenceContainer name="content">
+<block class="Packt\HelloWorld\Block\Landingspage" name="landingsblock" template="Packt_HelloWorld::landingspage.phtml" />
+<block class="Packt\HelloWorld\Block\Newproducts" name="new_products" template="Packt_HelloWorld::newproducts.phtml"/>
+</referenceContainer>
 </body>
 </page>
