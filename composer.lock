@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "2704d0a8c13fbe46af790686804c3332",
+    "content-hash": "5577d696cd553dd0d917d29acbb8ac3d",
     "packages": [
         {
             "name": "2tvenom/cborencode",
@@ -1888,6 +1888,54 @@
                 }
             ],
             "time": "2021-04-20T19:10:54+00:00"
+        },
+        {
+            "name": "ethanyehuda/magento2-cronjobmanager",
+            "version": "v1.12.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Ethan3600/magento2-CronjobManager.git",
+                "reference": "268d3f1e81f11b1cb773c51dc33db1cf2f774e00"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Ethan3600/magento2-CronjobManager/zipball/268d3f1e81f11b1cb773c51dc33db1cf2f774e00",
+                "reference": "268d3f1e81f11b1cb773c51dc33db1cf2f774e00",
+                "shasum": ""
+            },
+            "require": {
+                "ext-posix": "*",
+                "magento/framework": "~101.0.0|~102.0.0|~103.0.0|~104.0.0",
+                "php": "~7.1.0||~7.2.0||~7.3.0||~7.4.0"
+            },
+            "require-dev": {
+                "ext-pcntl": "*"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "EthanYehuda\\CronjobManager\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "OSL-3.0"
+            ],
+            "description": "A module for managing scheduled cron jobs from magento's admin panel",
+            "support": {
+                "issues": "https://github.com/Ethan3600/magento2-CronjobManager/issues",
+                "source": "https://github.com/Ethan3600/magento2-CronjobManager/tree/v1.12.0"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/ethan3600",
+                    "type": "github"
+                }
+            ],
+            "time": "2021-03-06T16:43:42+00:00"
         },
         {
             "name": "ezimuel/guzzlestreams",
@@ -27520,6 +27568,58 @@
             "time": "2017-01-16T07:08:25+00:00"
         },
         {
+            "name": "honl/magento2-templatehints",
+            "version": "0.2.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ho-nl/magento2-Ho_Templatehints.git",
+                "reference": "c66ab94c4282acd9e3ae93f52da85d64a86c3f73"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ho-nl/magento2-Ho_Templatehints/zipball/c66ab94c4282acd9e3ae93f52da85d64a86c3f73",
+                "reference": "c66ab94c4282acd9e3ae93f52da85d64a86c3f73",
+                "shasum": ""
+            },
+            "require": {
+                "php": "~7.1"
+            },
+            "replace": {
+                "ho-nl/magento2-templatehints": "self.version"
+            },
+            "type": "magento2-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "0.2-dev"
+                }
+            },
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Ho\\Templatehints\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-2-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Paul Hachmang - H&O",
+                    "email": "paul@h-o.nl"
+                }
+            ],
+            "description": "H&O Magento 2 Advanced Template Hints module",
+            "homepage": "https://github.com/ho-nl/magento2-Ho_Templatehints",
+            "support": {
+                "issues": "https://github.com/ho-nl/magento2-Ho_Templatehints/issues",
+                "source": "https://github.com/ho-nl/magento2-Ho_Templatehints/tree/master"
+            },
+            "time": "2020-04-17T12:48:43+00:00"
+        },
+        {
             "name": "jms/metadata",
             "version": "2.6.1",
             "source": {
@@ -30198,6 +30298,61 @@
             "time": "2020-09-28T06:39:44+00:00"
         },
         {
+            "name": "smile/module-debug-toolbar",
+            "version": "5.1.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Smile-SA/magento2-module-debug-toolbar.git",
+                "reference": "7cd6df064c50efc30c8f16419020abf98c08b132"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Smile-SA/magento2-module-debug-toolbar/zipball/7cd6df064c50efc30c8f16419020abf98c08b132",
+                "reference": "7cd6df064c50efc30c8f16419020abf98c08b132",
+                "shasum": ""
+            },
+            "require": {
+                "magento/framework": ">=103.0.0",
+                "magento/module-config": ">=101.2.0",
+                "php": ">=7.3.0"
+            },
+            "require-dev": {
+                "magento/magento-coding-standard": "^6.0",
+                "phpmd/phpmd": "^2.10"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Smile\\DebugToolbar\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "EPL-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Smile Technical Office",
+                    "email": "dirtech@smile.fr"
+                }
+            ],
+            "description": "Smile Debug Toolbar",
+            "homepage": "https://github.com/Smile-SA/magento2-module-debug-toolbar",
+            "keywords": [
+                "debug",
+                "magento2",
+                "toolbar"
+            ],
+            "support": {
+                "issues": "https://github.com/Smile-SA/magento2-module-debug-toolbar/issues",
+                "source": "https://github.com/Smile-SA/magento2-module-debug-toolbar/tree/5.1.2"
+            },
+            "time": "2021-10-12T09:04:44+00:00"
+        },
+        {
             "name": "squizlabs/php_codesniffer",
             "version": "3.5.8",
             "source": {
@@ -30716,5 +30871,5 @@
     "prefer-lowest": false,
     "platform": [],
     "platform-dev": [],
-    "plugin-api-version": "1.1.0"
+    "plugin-api-version": "2.2.0"
 }

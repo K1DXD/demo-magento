@@ -20,6 +20,7 @@
     },
     "version": "2.4.3-p1",
     "require": {
+        "ethanyehuda/magento2-cronjobmanager": "^1.12",
         "magento/composer-dependency-version-audit-plugin": "~0.1",
         "magento/composer-root-update-plugin": "~1.1",
         "magento/module-bundle-sample-data": "100.4.*",
@@ -69,6 +70,7 @@
         "allure-framework/allure-phpunit": "~1.4",
         "dealerdirect/phpcodesniffer-composer-installer": "^0.7.0",
         "friendsofphp/php-cs-fixer": "~2.18.1",
+        "honl/magento2-templatehints": "^0.2.5",
         "lusitanian/oauth": "~0.8.10",
         "magento/magento-coding-standard": "*",
         "magento/magento2-functional-testing-framework": "^3.0",
@@ -78,6 +80,7 @@
         "phpstan/phpstan": "^0.12.77",
         "phpunit/phpunit": "^9",
         "sebastian/phpcpd": "^6.0.3",
+        "smile/module-debug-toolbar": "^5.1",
         "squizlabs/php_codesniffer": "~3.5.4",
         "symfony/finder": "^5.2"
     },
